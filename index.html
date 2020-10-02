@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEW 1.1 Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <div id="title">
+                <label for="title">Title Text</label><br>
+                <input type='text' id="title" name="title">
+                <input type="color" id="tColor" name="tColor">
+            </div>
+            <div id="message">
+                <label for="message">Message</label><br>
+                <textarea form="form" id="msg" name="msg"></textarea>
+                <input type="color" id="mColor" name="mColor">
+            </div>
+            <button id="submit" type="submit">Submit</button>
+        </div>
+
+        <div class="output">
+            <h1 id="titleDisplay"></h1>
+            <p id="msgDisplay"></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

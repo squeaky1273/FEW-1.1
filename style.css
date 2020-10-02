@@ -1,0 +1,23 @@
+.container {
+    margin: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+body {
+    font-size: 1.2em;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
