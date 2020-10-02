@@ -10,21 +10,25 @@
     <div class="container">
         <div class="input">
             <div id="title">
-                <label for="title">Title Text</label><br>
-                <input type='text' id="title" name="title">
+                <label for="title">Title</label><br>
+                <input type='text' id="tText" name="tText">
                 <input type="color" id="tColor" name="tColor">
             </div>
             <div id="message">
                 <label for="message">Message</label><br>
-                <textarea form="form" id="msg" name="msg"></textarea>
+                <textarea form="form" id="msg" cols="40" rows="20" name="msg"></textarea>
                 <input type="color" id="mColor" name="mColor">
             </div>
             <button id="submit" type="submit">Submit</button>
         </div>
 
         <div class="output">
-            <h1 id="titleDisplay"></h1>
-            <p id="msgDisplay"></p>
+            <div class="titleDisplay">
+                <h1 id="titleDisplay"></h1>
+            </div>
+            <div class="msgDisplay">
+                <h1 id="msgDisplay"></h1>
+            </div>
         </div>
     </div>
     <script src="main.js"></script>

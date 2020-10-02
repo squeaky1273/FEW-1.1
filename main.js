@@ -1,4 +1,4 @@
-const title = document.getElementById('title')
+const tText = document.getElementById('tText')
 const tColor = document.getElementById('tColor')
 const msg = document.getElementById('msg')
 const mColor = document.getElementById('mColor')
@@ -8,8 +8,8 @@ const msgDisplay = document.getElementById('msgDisplay')
 
 
 // Title Event Handler
-title.addEventListener('change', function() {
-    titleDisplay.innerHTML = title.value
+tText.addEventListener('change', function() {
+    titleDisplay.innerHTML = tText.value
 })
 
 // Title Color Event Handler
